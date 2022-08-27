@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.repairButton = new System.Windows.Forms.Button();
+            this.infoButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -38,26 +38,26 @@
             this.progressBar2 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
-            // button1
+            // repairButton
             // 
-            this.button1.Font = new System.Drawing.Font("Lucida Handwriting", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(99, 98);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 34);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Repair";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.repairButton.Font = new System.Drawing.Font("Lucida Handwriting", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.repairButton.Location = new System.Drawing.Point(99, 98);
+            this.repairButton.Name = "repairButton";
+            this.repairButton.Size = new System.Drawing.Size(127, 34);
+            this.repairButton.TabIndex = 0;
+            this.repairButton.Text = "Repair";
+            this.repairButton.UseVisualStyleBackColor = true;
+            this.repairButton.Click += new System.EventHandler(this.repairButton_Click);
             // 
-            // button2
+            // infoButton
             // 
-            this.button2.Location = new System.Drawing.Point(125, 137);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Info";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.infoButton.Location = new System.Drawing.Point(125, 137);
+            this.infoButton.Name = "infoButton";
+            this.infoButton.Size = new System.Drawing.Size(75, 23);
+            this.infoButton.TabIndex = 1;
+            this.infoButton.Text = "Info";
+            this.infoButton.UseVisualStyleBackColor = true;
+            this.infoButton.Click += new System.EventHandler(this.infoButton_Click);
             // 
             // label1
             // 
@@ -110,8 +110,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.infoButton);
+            this.Controls.Add(this.repairButton);
             this.Font = new System.Drawing.Font("Lucida Handwriting", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -123,8 +123,8 @@
 
         #endregion
 
-        private Button button1;
-        private Button button2;
+        private Button repairButton;
+        private Button infoButton;
         private Label label1;
         private Label label2;
         private Label label3;

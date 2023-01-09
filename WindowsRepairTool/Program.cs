@@ -1,3 +1,6 @@
+using Microsoft.ApplicationInsights.Extensibility.Implementation;
+using Microsoft.ApplicationInsights.Extensibility;
+
 namespace WindowsRepairTool
 {
     internal static class Program
